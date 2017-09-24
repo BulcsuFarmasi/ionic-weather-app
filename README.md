@@ -1,0 +1,1 @@
+This is repo is based on Brad Traversy's [Ionic 3 Mobile Weather App Build](https://www.youtube.com/watch?v=qs2n_poLarc) tutorial
