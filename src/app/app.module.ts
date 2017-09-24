@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { HttpModule } from '@angular/http'
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
+import { IonicStorageModule } from '@ionic/storage'
 import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
@@ -26,7 +27,8 @@ import { WeatherProvider } from '../providers/weather/weather';
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
